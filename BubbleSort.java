@@ -30,7 +30,7 @@ for(int v:arr){
 }
 
 
-insertionSort(arr);
+bubbleSort(arr);
 System.out.println("after sorting the array\n");
 for(int v:arr)
 System.out.print(v);
