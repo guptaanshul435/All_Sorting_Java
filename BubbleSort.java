@@ -23,7 +23,17 @@ public class BubbleSort {
 
    public static void main(String args[]){
     // create one obect of array and intialised
-    
+    int arr[]={3,5,2,6,1};
+    System.out.println("before sorting the array");
+for(int v:arr){
+   System.out.print(v);
+}
+
+
+insertionSort(arr);
+System.out.println("after sorting the array\n");
+for(int v:arr)
+System.out.print(v);
     
    } 
 }
